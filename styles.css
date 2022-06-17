@@ -19,7 +19,6 @@ body {
 .small-flex {
     display: flex;
     flex-direction: column;
-    /* margin: 24px 48px;  */
     padding: 16px;
 }
 
@@ -88,4 +87,69 @@ button {
     justify-content: center;
     background-color: #1F2937;
     gap: 125px;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 16px;
+    padding: 16px;
+}
+
+.some-random-info {
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 52px;
+}
+
+.box-one {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #1F2937;
+}
+
+.box-two {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #263c5c;
+}
+
+.box-three {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #234b87;
+}
+
+.box-four {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #1a56b0;
+}
+
+.text-under-box {
+    display: flex;
+    justify-content: center; 
+    margin: 8px;
+    gap: 52px;
+}
+
+.under-box-text {
+    max-width: 150px;
+    color: #6e6f71;
+    font-size: 14px;
+    text-align: center;
 }
