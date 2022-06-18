@@ -29,10 +29,11 @@ ul {
     font-size: 18px;
 }
 
-a {
+/* a {
     text-decoration: none;
-    color: #6e6f71;
-}
+} */
+
+
 
 .header {
     display: flex;
@@ -235,4 +236,18 @@ img {
     margin: 24px 48px;
     border: 2px solid white;
     
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px; 
 }
