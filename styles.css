@@ -153,3 +153,32 @@ button {
     font-size: 14px;
     text-align: center;
 }
+
+.quote-outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-inside {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    align-items: flex-end;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937; 
+    max-width: 800px;
+    text-align: center;
+}
+
+.quote-author {
+    text-align: left;
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bold;
+}
