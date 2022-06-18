@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');  
 
 body {
@@ -14,12 +21,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: dotted;
 }
 
 .small-flex {
     display: flex;
     flex-direction: column;
     padding: 16px;
+    /* flex-basis: auto;  */
 }
 
 ul {
