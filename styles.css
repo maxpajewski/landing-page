@@ -90,6 +90,7 @@ img {
     color: white;
     border: 2px;
     border-color: white;
+    cursor: pointer;
 }
 
 .welcome-body {
@@ -244,6 +245,7 @@ img {
     width: 100px;
     margin: 24px 48px;
     border: 2px solid white;
+    cursor: pointer;
     
 }
 
