@@ -70,15 +70,16 @@ img {
     color: #6e6f71;
 }
 
-button {
+.btn {
     font-family: Roboto, sans-serif;
-    border: none;
     border-radius: 8px;
     background: #437dd9;
     width: 100px;
     padding: 4px;
     margin-top: 8px;
     color: white;
+    border: 2px;
+    border-color: white;
 }
 
 .welcome-body {
@@ -164,7 +165,7 @@ button {
 .quote-inside {
     display: flex;
     flex-direction: column;
-    margin: 32px;
+    margin: 96px;
     align-items: flex-end;
 }
 
@@ -181,4 +182,57 @@ button {
     font-size: 18px;
     color: #1f2937;
     font-weight: bold;
+    padding: 8px; 
+}
+
+.calltoaction-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.call-to-action {
+    border-radius: 8px;
+    background: #437dd9;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+/* .bottom-button {
+    border: 2px;
+    border-color: white;
+} */
+
+.right-call {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 48px;
+}
+
+.call-bold-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-small-text {
+    color: lightgrey;
+    font-size: 18px;
+}
+
+.btnn {
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    background: #437dd9;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin: 24px 48px;
+    border: 2px solid white;
+    
 }
